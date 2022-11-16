@@ -1,0 +1,7 @@
+function past(h, m, s){
+  sum = 0;
+  sum += (s * 1000);
+  sum += (m * 60000);
+  sum += (h * 3600000);
+  return sum;
+}
