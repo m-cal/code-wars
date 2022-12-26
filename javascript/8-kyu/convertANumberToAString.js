@@ -1,3 +1,1 @@
-const stringToNumber = function(str){
-  return Number(str);
-}
+const numberToString = num => String(num)
